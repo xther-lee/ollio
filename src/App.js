@@ -1,24 +1,33 @@
-import logo from './logo.svg';
+import {BrowserRouter as Router, Routes, Route  } from 'react-router-dom';
+import TopAd from './components/Main/TopAd';
+import Header from './components/Bar/Header';
+import MainSlide from './components/Main/MainSlide';
+import MoodSlide from './components/Main/MoodSlide';
+import Recommend from './components/Main/Recommend';
+import Review from './components/Main/Review';
+import Brand from './components/Main/Brand';
+
 import './App.css';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+    <TopAd/>
+    <Header/>
+      <Routes>
+        {/* 메인페이지 */}
+        <Route path='/' element={
+          <>
+          <MainSlide/>
+          <MoodSlide />
+          <Recommend />
+          <Review/>
+          <Brand/>
+          </>
+          }/>
+      </Routes>
+    </Router>
   );
 }
 
