@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ollio/static/css/main.d9fc3407.css",
+    "main.js": "/ollio/static/js/main.0fedf0fb.js",
+    "static/js/453.51dc7e88.chunk.js": "/ollio/static/js/453.51dc7e88.chunk.js",
+    "index.html": "/ollio/index.html",
+    "main.d9fc3407.css.map": "/ollio/static/css/main.d9fc3407.css.map",
+    "main.0fedf0fb.js.map": "/ollio/static/js/main.0fedf0fb.js.map",
+    "453.51dc7e88.chunk.js.map": "/ollio/static/js/453.51dc7e88.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d9fc3407.css",
+    "static/js/main.0fedf0fb.js"
+  ]
+}
