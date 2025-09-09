@@ -17,7 +17,7 @@ function App() {
     <Header/>
       <Routes>
         {/* 메인페이지 */}
-        <Route path='/' element={
+        <Route path='ollio/' element={
           <>
           <MainSlide/>
           <MoodSlide />

@@ -28,7 +28,7 @@ const MainSlide = () => {
               allowfullscreen/>
           </SwiperSlide>
             <SwiperSlide>
-                <img src="./img/imgi_2_6442bfd6738ad27a0b53a46ef97cb239.png" alt="메인02" />
+                <img src={`${process.env.PUBLIC_URL}/img/imgi_2_6442bfd6738ad27a0b53a46ef97cb239.png`} alt="메인02" />
             </SwiperSlide>
         </Swiper>
         </div>
