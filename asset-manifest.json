@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/ollio/static/css/main.d9fc3407.css",
-    "main.js": "/ollio/static/js/main.8fa40ec4.js",
+    "main.css": "/ollio/static/css/main.2a5c870b.css",
+    "main.js": "/ollio/static/js/main.957649d5.js",
     "static/js/453.51dc7e88.chunk.js": "/ollio/static/js/453.51dc7e88.chunk.js",
     "index.html": "/ollio/index.html",
-    "main.d9fc3407.css.map": "/ollio/static/css/main.d9fc3407.css.map",
-    "main.8fa40ec4.js.map": "/ollio/static/js/main.8fa40ec4.js.map",
+    "main.2a5c870b.css.map": "/ollio/static/css/main.2a5c870b.css.map",
+    "main.957649d5.js.map": "/ollio/static/js/main.957649d5.js.map",
     "453.51dc7e88.chunk.js.map": "/ollio/static/js/453.51dc7e88.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d9fc3407.css",
-    "static/js/main.8fa40ec4.js"
+    "static/css/main.2a5c870b.css",
+    "static/js/main.957649d5.js"
   ]
 }
